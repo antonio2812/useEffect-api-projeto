@@ -1,0 +1,43 @@
+body {
+  background-color: #282828;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  align-items: center;
+  gap: 10px;
+  margin: 80px;
+}
+
+.container strong {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 32px;
+  color: #fff;
+}
+
+.container img {
+  border-radius: 50%;
+  width: 400px;
+  height: 400px;
+}
+
+@media (max-width: 410px) {
+  .container strong {
+    width: 100px;
+  }
+
+  .container img {
+    width: 300px;
+    height: 300px;
+  }
+}
+
+@media (max-width: 310px) {
+  .container img {
+    width: 200px;
+    height: 200px;
+  }
+}
